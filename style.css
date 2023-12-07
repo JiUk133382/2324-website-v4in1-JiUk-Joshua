@@ -1,24 +1,32 @@
 header {
   width: 900px;
   height: 50px;
-  background-color: #ffffff;
-  margin: auto;
+  background-color: #0400F5;
+  border-width: 100px
+
 }
 
 nav {
   width: 900px;
   height: 50px;
   margin: auto;
-  background-color: #ffffff;
+  background-color: #EF1515;
 }
 
-#bigimage {
+bigimage {
   width: 100%;
   height: 300px;
 }
 
 main {
   width: 900px;
-  background-color: red;
+  background-color: #EF1515;
   margin: auto;
+} 
+
+footer { 
+  width: 900px;
+  height: 50px
+  background #EF1515
+  
 }
