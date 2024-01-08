@@ -1,32 +1,49 @@
 header {
-  width: 900px;
-  height: 50px;
-  background-color: #0400F5;
-  border-width: 100px
-
+    width: 900px;
+    height: 50px;
+    margin: auto;
+    background-color: red;
 }
 
 nav {
-  width: 900px;
-  height: 50px;
-  margin: auto;
-  background-color: #EF1515;
+    width: 1000px;
+    height: 50px;
+    margin: auto;
+    background-color: red;
 }
 
-bigimage {
-  width: 100%;
-  height: 300px;
+#ImageBig {
+    width: 100%;
+    height: 300px;
 }
 
 main {
-  width: 900px;
-  background-color: #EF1515;
-  margin: auto;
+    width: 900px;
+    margin: auto;
+    background-color: red;
 } 
 
+article {
+    height: 600px;
+    float: left;
+    padding: 10px;
+    background-color: blue;
+}
+
+.big {
+    width: 580px;
+    margin: 20px 20px 20px 20px;
+} 
+
+.small {
+    width: 300px;
+    margin: 20px 20px;
+}
+
 footer { 
-  width: 900px;
-  height: 50px
-  background #EF1515
-  
+    width: 100%;
+    height: 100px;
+    padding-bottom: 40px;
+    clear: both;
+    background-color: aqua;
 }
