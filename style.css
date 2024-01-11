@@ -1,7 +1,7 @@
 * {
     border-width: 5px;
     border-style: solid;
-    border-color: black;
+    border-color: aqua;
     
     #wrapper {
         width: 1000px;
@@ -10,7 +10,7 @@
 }
 header {
     height: 100px;
-    margin: auto;
+    margin: 10px 10px;
     border-width: 3px;
     border-style: solid;
     border-color: black;
@@ -42,7 +42,7 @@ main {
 
 article {
     width: 800px;
-    height: 600px;
+    height: 500px;
     padding: 10px;
     border-width: 3px;
     border-style: solid;
