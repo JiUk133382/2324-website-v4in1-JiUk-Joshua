@@ -1,0 +1,26 @@
+Het beveiligen van onze digitale gegevens gaat voornamelijk over de volgende drie aspecten:
+
+Vertrouwelijkheid: de afscherming van gegevens tegen ongeoorloofde inzage.
+Integriteit: bescherming van gegevens tegen verlies of (on)bedoelde wijzigingen.
+Beschikbaarheid: de mate van storingsvrije toegang tot de gegevens.
+  
+  Voordat er toegang is tot persoonlijke gegevens, is er een controle nodig om te kijken of de gebruiker wel toegang mag hebben. Dit proces wordt authenticatie genoemd.
+    identificatie wordt er aan je gevraagd: “Wie ben je?”. Dat kun je bijvoorbeeld aangeven door het invoeren van een gebruikersnaam/wachtwoord of het laten scannen van je vingerafdruk op je smartphone.
+
+Vervolgens vindt er een verificatie plaats. Daarbij gaat het om de vraag: “Ben jij wie je zegt dat je bent?” Er kan alleen verificatie plaatsvinden als er gegevens van jou bekend zijn.
+
+Bij jou op school is het alleen voor docenten mogelijk om cijfers in te voeren. Jij als leerling kunt de cijfers alleen bekijken. Het cijfersysteem moet dus controleren of een gebruiker toegang heeft en zo ja, welke rechten die gebruiker heeft. De rechten van een gebruiker zijn verbonden aan diens rol. Een gebruiker met de rol ‘docent’ heeft meer rechten dat een gebruiker met de rol ‘leerling’. Maar iemand met de rol ‘beheerder’ heeft nog meer rechten.
+
+De controle of een gebruiker toegang heeft, valt onder vertrouwelijkheid. De controle welke rechten een vertrouwde gebruiker allemaal heeft, noemen we autorisatie. We noemen dat ook wel een controle van de integriteit.
+
+  (tabel)
+Eis	Controlevraag
+Volledigheid	Ontbreekt er iets?
+Relevantie	Is de informatie afgestemd op het te bereiken doel?
+Betrouwbaarheid	Is de informatie correct en afkomstig van een goede bron?
+Overzichtelijkheid	Is de informatie goed gestructureerd?
+Beschikbaarheid	Is de informatie op het juiste moment beschikbaar?
+Doelgerichtheid	Is de informatie gericht op de gebruiker (de doelgroep)? 
+
+  Gevoelige bestanden kunnen versleuteld worden opgeslagen en/of verzonden. Hiervoor wordt er gebruikgemaakt van encryptie. Door middel van een sleutel, bijvoorbeeld een wachtwoord, kan de inhoud van een bestand wiskundig worden ‘gehusseld’. Met dit nieuwe bestand kun je niets; je moet de inhoud eerst weer op een correcte manier terugzetten. Dat kan alleen met de sleutel. Die moet dus geheim blijven!
+    
