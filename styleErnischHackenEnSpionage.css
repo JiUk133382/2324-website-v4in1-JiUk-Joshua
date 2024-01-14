@@ -1,8 +1,8 @@
 .header {
     padding: 80px;
     text-align: center;
-    background-color: green;
-    color: white;
+    background-color: #ef1515;
+    color: #ffffff;
 }
 
 .header h1 {
@@ -11,7 +11,8 @@ font-size: 40px;
 
 .navbar {
     overflow: hidden;
-    background-color: darkblue;
+    background-color: #0400f5;
+    color: #ffffff;
 }
 
 .navbar a {
@@ -34,13 +35,13 @@ font-size: 40px;
 
 .side {
     flex: 30%;
-    background-color: bisque;
+    background-color: #f4c304;
     padding: 20px;
 } 
 
 .main {
     flex: 70px;
-    background-color: aquamarine;
+    background-color: #ffffff;
     padding: 20px;
 }
 
@@ -60,5 +61,6 @@ font-size: 40px;
 .footer {
     padding: 20px;
     text-align: center;
-    background: gray;
+    background: #000000;
+    color: #ffffff;
 }
