@@ -24,3 +24,27 @@ Doelgerichtheid	Is de informatie gericht op de gebruiker (de doelgroep)?
 
   Gevoelige bestanden kunnen versleuteld worden opgeslagen en/of verzonden. Hiervoor wordt er gebruikgemaakt van encryptie. Door middel van een sleutel, bijvoorbeeld een wachtwoord, kan de inhoud van een bestand wiskundig worden ‘gehusseld’. Met dit nieuwe bestand kun je niets; je moet de inhoud eerst weer op een correcte manier terugzetten. Dat kan alleen met de sleutel. Die moet dus geheim blijven!
     
+Onze digitale veiligheid wordt op allerlei manieren bedreigd. Aanvallers maken gebruik van verschillende zwakheden om toegang te krijgen tot onze digitale gegevens. In dit hoofdstuk bekijken we de volgende zwakheden:
+
+
+H2
+zwakheden in de architectuur;
+zwakheden in communicatie;
+zwakheden bij gebruikers.
+
+In het onderdeel E1 heb je gelezen dat je in ICT-producten vaak drie lagen kunt onderscheiden:
+
+fysieke laag
+logische laag
+toepassingenlaag
+Een zwakheid in de architectuur maakt gebruik van een tekortkoming in een van deze lagen, of in de communicatie tussen twee lagen. Er is dan een fout gemaakt in het ontwerp van de laag of de communicatie. Vaak had de ontwerper of maker die fout helemaal niet voorzien.
+Een voorbeeld is de camera op je telefoon. Wanneer een app gebruik wil maken van je camera, verschijnt er eerst een pop-up waarin je toestemming moet geven. Het kan gebeuren dat er een manier wordt gevonden om de camera te gebruiken zonder dat de pop-up verschijnt. Een aanvaller kan dan meekijken met je camera zonder dat je dat doorhebt.
+In het nieuws wordt vaak gesproken over een lek in een website of app. Een kwaadwillende partij heeft dan een zwakheid in de architectuur gevonden en maakt daarvan gebruik om schade aan te richten.
+
+
+
+
+
+
+
+
