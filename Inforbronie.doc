@@ -32,18 +32,31 @@ zwakheden in de architectuur;
 zwakheden in communicatie;
 zwakheden bij gebruikers.
 
-In het onderdeel E1 heb je gelezen dat je in ICT-producten vaak drie lagen kunt onderscheiden:
-
+Zwakheid in Arschitecteur
 fysieke laag
 logische laag
 toepassingenlaag
 Een zwakheid in de architectuur maakt gebruik van een tekortkoming in een van deze lagen, of in de communicatie tussen twee lagen. Er is dan een fout gemaakt in het ontwerp van de laag of de communicatie. Vaak had de ontwerper of maker die fout helemaal niet voorzien.
 Een voorbeeld is de camera op je telefoon. Wanneer een app gebruik wil maken van je camera, verschijnt er eerst een pop-up waarin je toestemming moet geven. Het kan gebeuren dat er een manier wordt gevonden om de camera te gebruiken zonder dat de pop-up verschijnt. Een aanvaller kan dan meekijken met je camera zonder dat je dat doorhebt.
 In het nieuws wordt vaak gesproken over een lek in een website of app. Een kwaadwillende partij heeft dan een zwakheid in de architectuur gevonden en maakt daarvan gebruik om schade aan te richten.
+Verschillende apparaten zijn met elkaar verbonden. Bijvoorbeeld door middel van internet. Hierdoor kunnen ze met elkaar communiceren. Maar die communicatie moet wel op een veilige manier gebeuren. Als jij op je telefoon een wachtwoord intypt op een website, wordt dit wachtwoord verzonden vanaf je telefoon naar de website. Het ingevoerde wachtwoord mag voor niemand zichtbaar zijn, behalve voor de website waarop je inlogt.
+Man-in-the-Middle aanval
+Met een man-in-the-middle aanval kan de verbinding tussen twee apparaten afgeluisterd worden. Stel dat een gebruiker gegevens invult op een website. Die gegevens worden, als het goed is, direct naar de website verzonden. Maar als er iemand tussen deze verbinding komt, en de binnenkomende gegevens van de gebruiker direct doorstuurt naar de website, heb je niet door dat je afgeluisterd wordt.
+End-to-end encryption
+Door middel van een HTTPS-verbinding worden de verzonden gegevens door middel van encryptie onleesbaar gemaakt. Waar een HTTPS-verbinding alleen zorgt voor de beveiliging tussen de client en een server, gaat end-to-end encryption nog een stap verder.
+Bij een HTTPS-verbinding worden de gegevens versleuteld verstuurd tussen de client en de server. De server kan dus de oorspronkelijke, onversleutelde gegevens inzien en opslaan. Aanvallers maken maar hiervan al te graag gebruik door bijvoorbeeld op servers in te breken en de onversleutelde gegevens te stelen.
+End-to-end encryption versleutelt de gegevens nog voordat ze het internet op gaan, en ontsleutelt ze pas wanneer ze het internet verlaten. Alleen jij en de ontvanger kunnen ze ontsleutelen. Krijgt een hacker toegang tot de server, dan zal hij nooit de onversleutelde gegevens in kunnen zien. End-to-end encryption lost dus problemen als gevolg van zwakheden in de communicatie én zwakheden in de architectuur op!
 
-
-
-
+Zwakheden bij gebruikers
+Niet alleen bij de systemen die we gebruiken zitten zwakheden, maar ook bij onszelf. Misschien zijn wij mensen wel de zwakste schakel in het geheel.
+Een van de bekendste voorbeelden van zwakheden bij gebruikers is de manier waarop wij met wachtwoorden omgaan. Voor veel diensten op het internet moet je een gebruikersnaam en wachtwoord gebruiken. Vaak kiezen mensen voor simpele wachtwoorden die makkelijk te onthouden zijn, zoals Welkom123 of gewoon hun voornaam. Helaas zijn die wachtwoorden makkelijk te kraken: een aanvaller kan er makkelijk achter komen en inbreken op je account.
+Wat bedoelen we met het kraken van wachtwoorden? Een aanvaller probeert dan elk mogelijk wachtwoord om in te loggen op je account, totdat het juiste wachtwoord is gevonden. Speciale programma’s zijn in staat om duizenden wachtwoorden per seconde te proberen. Deze techniek heet brute force: er wordt brute kracht ingezet om het wachtwoord te ontdekken.
+Om te voorkomen dat je wachtwoord bij een brute force aanval gekraakt kan worden, is het belangrijk om het wachtwoord zo ingewikkeld mogelijk te maken. Veel websites helpen je hierbij door het gebruik van cijfers en speciale tekens te verplichten. Dankzij die extra tekens zijn er meer mogelijke wachtwoorden, waardoor een aanvaller veel meer pogingen moet doen.
+Hoe meer tekens, hoe veiliger. Bij een lang wachtwoord is het al snel niet meer de moeite waard om er een brute force aanval op los te laten.
+Hoe meer soorten tekens, hoe veiliger. Hoe complexer het wachtwoord, hoe meer mogelijkheden een hacker moet inzetten om het ingewikkelde wachtwoord te vinden.
+Gebruik geen voor de hand liggende woorden, zoals woorden in een woordenboek, de naam van de website of je eigen naam of geboortedatum.
+Gebruik voor iedere website of dienst een ander wachtwoord.
+Pas je wachtwoorden minimaal één keer per jaar aan.
 
 
 
